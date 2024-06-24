@@ -1,0 +1,30 @@
+/* src/pages/Services.module.css */
+.services {
+    padding: 20px;
+  }
+  
+  .title {
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .serviceItem {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .serviceImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,13 @@
+/* src/pages/Home.module.css */
+.home {
+    text-align: center;
+  }
+  
+  .title {
+    color: #4CAF50;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
